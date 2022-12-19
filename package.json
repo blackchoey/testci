@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@microsoft/teamsfx": "file:../../../git/TeamsFx/packages/sdk/microsoft-teamsfx-0.7.0.tgz",
+    "axios": "^0.27.2",
+    "nock": "^13.2.9",
+    "semver": "^7.3.7",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5",
+    "yaml": "^2.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
