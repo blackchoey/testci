@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup project
-        run: |
-          ls
-          npm ci
+        run: ls
+      - name: Setup project
+        run: npm ci
