@@ -1,0 +1,12 @@
+name: Unit Test
+
+on:
+  workflow_dispatch
+
+jobs:
+  unit-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup project
+        run: |
+          npm ci
