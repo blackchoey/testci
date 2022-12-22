@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@microsoft/teamsfx": "file:../../../git/TeamsFx/packages/sdk/microsoft-teamsfx-0.7.0.tgz",
     "@microsoft/teamsfx-core": "^1.21.0",
     "axios": "^0.27.2",
     "js-yaml": "^4.1.0",
